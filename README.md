@@ -2,7 +2,6 @@
 
 <p align="center">
   <b>Embedded Systems</b> • <b>Machine Learning</b> • <b>Autonomous Robotics</b><br>
-  <sub>I build systems that bridge hardware and intelligence — firmware that reads a sensor, then models that make sense of what it measures.</sub>
 </p>
 
 <p align="center">
