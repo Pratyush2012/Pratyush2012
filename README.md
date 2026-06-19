@@ -47,7 +47,15 @@ An **ESP32**-based closed-loop system that monitors and regulates algae density 
 Two real-time games on a **bare-metal STM32L4** board: interrupt-driven (EXTI) mode-switching via button double-press detection and a non-blocking game loop on SysTick timing, driving the full onboard sensor suite plus a custom **I²C** HT16K33 LED-matrix driver and a non-blocking PWM buzzer engine.
 <br>`STM32` · `Embedded C` · `RTOS-style design`
 
-> More on my profile: a Kalaha/Mancala game-AI agent and a logic-based belief-revision engine.
+---
+
+### 🧰 More projects
+
+- **🎮 MiniCraft — Java sandbox game** &nbsp;·&nbsp; `DTU - grade 10`<br>
+  A Minicraft-inspired 2D world in JavaFX, built for DTU's Agile Object-Oriented Development course — procedural terrain, inventory, combat, mobs and save/load — developed test-first with **JUnit + Cucumber BDD** (12+ feature specs) and clean OO design patterns. <br>`Java 21` · `JavaFX` · `Maven` · `Cucumber / BDD`
+- **⚙️ Guarded Command Language toolchain** &nbsp;·&nbsp; `DTU - grade 10`<br>
+  An **F#** tool from DTU's Computer Science Modelling course spanning the full language pipeline — parser & pretty-printer → program-graph compiler → interpreter — plus program verification, information-flow security analysis, sign analysis and model checking. <br>`F#` · `Formal methods` · `Program analysis`
+- **🎲 [Kalaha / Mancala Game AI](https://github.com/Pratyush2012/Kalaha-Mancala-_game_AI)** — adversarial-search game agent &nbsp;·&nbsp; **🧠 [Belief-Revision Engine](https://github.com/Pratyush2012/Belief_revision_group45)** — logic-based belief revision
 
 ---
 
