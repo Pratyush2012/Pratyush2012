@@ -35,6 +35,14 @@ An end-to-end ML pipeline that recognises agricultural terrain (grass, tilled so
 A classical-ML pipeline that classifies seven emotions from speech on the TESS dataset. It extracts 80-D **MFCC** features (mean + std over 40 coefficients) with librosa and trains an **RBF-kernel SVM** — but the real focus is honest evaluation: a naive split scores >99% by secretly learning speaker identity, so it uses **speaker-independent GroupKFold** to hold out entire speakers and measure true generalisation.
 <br>`Python` · `scikit-learn` · `librosa` · `MFCC / SVM`
 
+#### 🔗 [StudocuOnChain — Decentralized Document Marketplace](https://github.com/Arnie016/StudocuOnChain) &nbsp;·&nbsp; `NUS EE4032 — top grade (A+)`
+A full-stack Ethereum dApp that reimagines Studocu on-chain: uploaders stake ETH, five randomly-assigned voters review documents for rewards, and readers pay micro-fees to unlock approved, password-gated files. A **Solidity** smart contract on the Sepolia testnet handles staking, voting thresholds and payouts, while a **React** front end streams live updates directly from contract events — no polling.
+<br>`Solidity` · `Ethereum` · `React` · `Web3` · `IPFS`
+
+#### 🌊 Autonomous Algae–Mussel Growth Bioreactor (IoT Control System) &nbsp;·&nbsp; `DTU Design-Build · grade 10`
+An **ESP32**-based closed-loop system that monitors and regulates algae density and water temperature for optimal mussel growth. A phototransistor handles optical-density measurement and temperature sensing, and feedback logic drives cooler, air and water motors — all live-monitored over **Adafruit IO** MQTT feeds.
+<br>`ESP32` · `MQTT` · `Adafruit IO` · `Closed-loop control`
+
 #### 🎮 STM32 Bare-Metal Firmware — Two Sensor-Driven Games &nbsp;·&nbsp; `NUS · A−`
 Two real-time games on a **bare-metal STM32L4** board: interrupt-driven (EXTI) mode-switching via button double-press detection and a non-blocking game loop on SysTick timing, driving the full onboard sensor suite plus a custom **I²C** HT16K33 LED-matrix driver and a non-blocking PWM buzzer engine.
 <br>`STM32` · `Embedded C` · `RTOS-style design`
@@ -70,6 +78,13 @@ Two real-time games on a **bare-metal STM32L4** board: interrupt-driven (EXTI) m
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
 ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
+
+**Web & Blockchain**
+<br>
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=flat-square&logo=ethereum&logoColor=white)
 
 **Tools**
 <br>
