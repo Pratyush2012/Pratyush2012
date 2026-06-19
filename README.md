@@ -31,15 +31,15 @@ My top-graded (**12/12**) BSc thesis turned raw robot sensor streams into a real
 An end-to-end ML pipeline that recognises agricultural terrain (grass, tilled soil, dirt track) under a DTU field robot using **intrinsic motion sensors alone** — accelerometer, gyroscope, and wheel odometry; no camera, LiDAR, or GNSS. Compared six model families (Random Forest, XGBoost, SVM, MLP, 1D CNN) over **189 engineered features** under run-disjoint Leave-One-Run-Out cross-validation (**macro-F1 0.87**), plus an online **CUSUM** detector that flags terrain transitions within 3–6 s. Code and labelled dataset released openly on Zenodo.
 <br>`Python` · `PyTorch` · `scikit-learn` · `XGBoost` · `IMU / DSP`
 
-#### ⚡ Smart-Home Energy Management — Solar, Battery & Grid IoT System &nbsp;·&nbsp; `12/12`
-A dual-MCU IoT prototype (6-person team): an **ESP32** energy controller with Wi-Fi sync, an Arduino IoT Cloud dashboard and price-threshold control over battery/grid relay switching, paired with an **Arduino UNO R4** dual-axis solar tracker and battery State-of-Charge estimation (OCV + coulomb counting).
-<br>`ESP32` · `Arduino` · `MQTT` · `IoT`
+#### 🎙️ [Speech Emotion Recognition (Speaker-Independent)](https://github.com/Pratyush2012/EmotionRecog) &nbsp;·&nbsp; `personal project`
+A classical-ML pipeline that classifies seven emotions from speech on the TESS dataset. It extracts 80-D **MFCC** features (mean + std over 40 coefficients) with librosa and trains an **RBF-kernel SVM** — but the real focus is honest evaluation: a naive split scores >99% by secretly learning speaker identity, so it uses **speaker-independent GroupKFold** to hold out entire speakers and measure true generalisation.
+<br>`Python` · `scikit-learn` · `librosa` · `MFCC / SVM`
 
 #### 🎮 STM32 Bare-Metal Firmware — Two Sensor-Driven Games &nbsp;·&nbsp; `NUS · A−`
 Two real-time games on a **bare-metal STM32L4** board: interrupt-driven (EXTI) mode-switching via button double-press detection and a non-blocking game loop on SysTick timing, driving the full onboard sensor suite plus a custom **I²C** HT16K33 LED-matrix driver and a non-blocking PWM buzzer engine.
 <br>`STM32` · `Embedded C` · `RTOS-style design`
 
-> More on my profile: a Kalaha/Mancala game-AI agent, a logic-based belief-revision engine, and an emotion-recognition model.
+> More on my profile: a Kalaha/Mancala game-AI agent and a logic-based belief-revision engine.
 
 ---
 
