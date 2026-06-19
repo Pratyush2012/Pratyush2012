@@ -15,7 +15,8 @@
 
 ### 🧭 About me
 
-My top-graded (**12/12**) BSc thesis turned raw robot sensor streams into a real-time terrain classifier — exactly the kind of work I love: writing the firmware that reads a sensor, then training the models that make sense of what it measures.
+I build systems that bridge hardware and intelligence — writing the firmware that reads a sensor, then training the models that make
+sense of what it measures.
 
 - 🎓 **MSc in Engineering — Autonomous Systems** @ Technical University of Denmark (DTU), starting **Sept 2026**
 - 🎓 **BSc in General Engineering — Cyber Systems** @ DTU · exchange semester at the **National University of Singapore**
@@ -35,15 +36,15 @@ An end-to-end ML pipeline that recognises agricultural terrain (grass, tilled so
 A classical-ML pipeline that classifies seven emotions from speech on the TESS dataset. It extracts 80-D **MFCC** features (mean + std over 40 coefficients) with librosa and trains an **RBF-kernel SVM** — but the real focus is honest evaluation: a naive split scores >99% by secretly learning speaker identity, so it uses **speaker-independent GroupKFold** to hold out entire speakers and measure true generalisation.
 <br>`Python` · `scikit-learn` · `librosa` · `MFCC / SVM`
 
-#### 🔗 [StudocuOnChain — Decentralized Document Marketplace](https://github.com/Arnie016/StudocuOnChain) &nbsp;·&nbsp; `NUS EE4032 — top grade (A+)`
+#### 🔗 [StudocuOnChain — Decentralized Document Marketplace](https://github.com/Arnie016/StudocuOnChain) &nbsp;·&nbsp; `NUS — top grade (A+)`
 A full-stack Ethereum dApp that reimagines Studocu on-chain: uploaders stake ETH, five randomly-assigned voters review documents for rewards, and readers pay micro-fees to unlock approved, password-gated files. A **Solidity** smart contract on the Sepolia testnet handles staking, voting thresholds and payouts, while a **React** front end streams live updates directly from contract events — no polling.
 <br>`Solidity` · `Ethereum` · `React` · `Web3` · `IPFS`
 
-#### 🌊 Autonomous Algae–Mussel Growth Bioreactor (IoT Control System) &nbsp;·&nbsp; `DTU Design-Build · grade 10`
+#### 🌊 Autonomous Algae–Mussel Growth Bioreactor (IoT Control System) &nbsp;·&nbsp; `DTU - grade 10`
 An **ESP32**-based closed-loop system that monitors and regulates algae density and water temperature for optimal mussel growth. A phototransistor handles optical-density measurement and temperature sensing, and feedback logic drives cooler, air and water motors — all live-monitored over **Adafruit IO** MQTT feeds.
 <br>`ESP32` · `MQTT` · `Adafruit IO` · `Closed-loop control`
 
-#### 🎮 STM32 Bare-Metal Firmware — Two Sensor-Driven Games &nbsp;·&nbsp; `NUS · A−`
+#### 🎮 STM32 Bare-Metal Firmware — Two Sensor-Driven Games &nbsp;·&nbsp; `NUS - A−`
 Two real-time games on a **bare-metal STM32L4** board: interrupt-driven (EXTI) mode-switching via button double-press detection and a non-blocking game loop on SysTick timing, driving the full onboard sensor suite plus a custom **I²C** HT16K33 LED-matrix driver and a non-blocking PWM buzzer engine.
 <br>`STM32` · `Embedded C` · `RTOS-style design`
 
