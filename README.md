@@ -66,6 +66,7 @@ Two real-time games on a **bare-metal STM32L4** board: interrupt-driven (EXTI) m
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C%20%2F%20Embedded%20C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![ARM](https://img.shields.io/badge/ARM%20Assembly-0091BD?style=flat-square&logo=arm&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
